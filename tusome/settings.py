@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', ''.join([random.choice(string.ascii_le
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['DJANGO_ALLOWED_HOSTS','127.0.0.1,localhost', '.vercel.app'].split(',')
+ALLOWED_HOSTS = ['DJANGO_ALLOWED_HOSTS','127.0.0.1,localhost', '.vercel.app']
 
 
 # Application definition
